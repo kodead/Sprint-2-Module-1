@@ -1,0 +1,109 @@
+<!-- Intro to HTML & CSS I
+
+  Module Project Overview
+
+    You will build a website to display the bio of your favorite programmer, artist, etc.
+
+    In order to do this, you will create an `index.html` file and scaffold the document
+    with the elements shared by all HTML documents:
+
+    - doctype declaration
+    - html element
+    - head, containing a title and an optional style tag
+    - body, containing the markup that renders to the screen
+
+  Requirements
+
+    Review this article: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+    Create an `index.html` file for your site, or use this same file.
+
+    For your site, you will make use of at least the following semantic elements:
+
+    - header (to contain the main heading of the site, and the nav)
+    - nav (to contain some links to navigate to the different sections of this document)
+    - section (each holding at least a heading and a paragraph)
+    - aside (containing an img and a caption)
+    - footer (containing a contact form)
+    - form (containing at least two inputs with their labels)
+
+    See an example of a finished site: https://bloominstituteoftechnology.github.io/img/anita-borg-bio-website.png
+
+    The example above is quite simple, but you can make your site as fancy as you'd like. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bob Marley Bio</title>
+  <style>
+    body {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>Bob Marley the Great
+    <h1>Bob Marley Bio</h1>
+    <nav>
+    <a href="#overview">Overview</a>
+    <a href="#carrer">Carrer</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+    </nav>
+</header>
+<main>
+  <section id="overview">
+    <h2>Overview</h2>
+    <figure>
+      <aside>
+        <div class="container">
+          <img style= max-width:100px src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBHH1zYXHIfC8aT309YY4QbdEUS75QKt2kgmQAuaOj_BzsJXC6" alt="picture of Bob Marley">
+        <p>Bob in 1980</p></div>
+      </aside>
+    </figure>
+    
+    <p>Robert Nesta Marley OM (6 February 1945 - 11 May 1981) was a Jamaican singer, musician, and songwriter. Considered one of the pioneers of reggae, his musical career was marked by fusing elements of reggae, ska, and rocksteady, as well as his distinctive vocal and songwriting style.[2][3] Marley's contributions to music increased the visibility of Jamaican music worldwide, and made him a global figure in popular culture.</p>
+  </section>
+  <section id="carrer">
+    <h2>Carrer</h2>
+    <p>In February 1962, Marley recorded four songs, "Judge Not", "One Cup of Coffee", "Do You Still Love Me?" and "Terror", at Federal Studios for local music producer Leslie Kong.[40] Three of the songs were released on Beverley's with "One Cup of Coffee" being released under the pseudonym Bobby Martell.</p>
+    <ul><h3>Albums</h3>
+      
+      <li>Natty Dread (1974)</li>
+      <li>Rastaman Vibration (1976)</li>
+      <li>Exodus (1977)</li>
+      <li>Kaya (1978)</li>
+      <li>Survival (1979)</li>
+      <li>Uprising (1980)</li>
+      <li>Confrontation (1983)</li>
+      </ul>
+  </section>
+  <section id="awards">
+    <h2>Awards</h2>
+    <p>In 1976, Bob Marley was named Band of the Year by Rolling Stone. In June 1978, he was awarded the Peace Medal of the Third World from the United Nations. In February 1981, he received Jamaica's third highest honor, the Jamaican Order of Merit. In March 1994, he was inducted into the Rock and Roll Hall of Fame. In 1999, his album Exodus was named Album of the Century by Time Magazine. In February 2001, he was honored with a star on the Hollywood Walk of Fame and received the Grammy Lifetime Achievement Award. In 2004, Rolling Stone ranked him No.11 on their list of the 100 Greatest Artists of All Time. His song "One Love" was named the song of the millennium by BBC, and he was voted as one of the greatest lyricists of all time in a BBC poll. In 2006, a blue plaque was unveiled at his first UK residence in Ridgmount Gardens, London, dedicated to him by the Nubian Jak community trust and supported by Her Majesty's Foreign Office. In 2010, his album Catch a Fire was inducted into the Grammy Hall of Fame in the Reggae Album category.</p>
+  </section>
+  <section id="contact">
+    <h2>Contact the Webmaster</h2>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <form action="">
+    <label>email
+      <input type="email" placeholder="type email">
+      </label>
+      <label>message
+        <input type="text" placeholder="type message to the web master">
+        </label>
+    </form>
+  </section>
+</main>
+
+<style>
+  img {
+    max-width: 100%;
+  }
+</style>
+<footer>
+  <div class="container">
+ 
+</div>
+</footer>
+</body>
+</html>
